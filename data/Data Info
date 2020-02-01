@@ -1,0 +1,10 @@
+The train and test features include:
+
+Chemical shift data (19 shifts) for N-3, N-2, N-1, N, N+1, N+2, N+3 nucleotides
+One hot encoded data for nucleotides (A, U, G, C, unknown)
+
+
+The train and test targets include:
+
+solvent exposure, adjacent stacking, non-adjacent stacking,  base-pairing, syn_anti, 
+pucker_C2p_endo, pucker_C3p_endo, pucker_C2p_exo, pucker_C3p_exo, pucker_C1p_exo, and pucker_C4p_exo (all binarily encoded)
